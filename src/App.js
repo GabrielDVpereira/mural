@@ -1,9 +1,8 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 import members from "./utils/members";
+const areas = Object.keys(members);
 function App() {
-  const areas = Object.keys(members);
-
   return (
     <>
       <header></header>
@@ -12,15 +11,30 @@ function App() {
       </div>
       <div className="container">
         {areas.map((area) =>
-          members[area].map((member) => (
-            <div className="memeber-content">
-              <img src={require(`./assets/${area}/${member.url}`)} />
-              <div className="member-info">
-                <p className="name">{member.name}</p>
-                <p className="exposed">{member.exposed}</p>
+          members[area].map((member) => {
+            let img = new Image();
+            img.src = require(`./assets/${area}/${member.url}`);
+            const imgWidth = img.width;
+            console.log(member.name, imgWidth);
+
+            return (
+              <div className="memeber-content">
+                <img
+                  src={require(`./assets/${area}/${member.url}`)}
+                  alt="member"
+                />
+                <div
+                  className="member-info"
+                  style={{
+                    width: imgWidth >= 610 ? "200px" : "165px",
+                  }}
+                >
+                  <p className="name">{member.name}</p>
+                  <p className="exposed">{member.exposed}</p>
+                </div>
               </div>
-            </div>
-          ))
+            );
+          })
         )}
       </div>
     </>

@@ -1,5 +1,10 @@
-const members = {
+let members = {
   atendimento: [
+    {
+      name: "Isadora Martins",
+      url: "ISA_MARTINS.jpg",
+      exposed: "Desliga a câmera no treinamento para ir fazer coco",
+    },
     {
       name: "Duda Serra",
       url: "DUDA.jpg",
@@ -20,10 +25,11 @@ const members = {
       url: "ISA_BERROGAIN.jpg",
       exposed: "Vai em rolê cult, porém não entende nada",
     },
+
     {
-      name: "Isadora Martins",
-      url: "ISA_MARTINS.jpg",
-      exposed: "Desliga a câmera no treinamento para ir fazer coco",
+      name: "Lu Zhang",
+      url: "LU_ZHANG.jpg",
+      exposed: "Espera até hoje a volta do One Direction",
     },
     {
       name: "Isa Ottoni",
@@ -35,32 +41,27 @@ const members = {
       url: "KAROL.jpg",
       exposed: "Karol, 0. Cunhada e irmão: 10",
     },
-    {
-      name: "Lu Zhang",
-      url: "LU_ZHANG.jpg",
-      exposed: "Espera até hoje a volta do One Direction",
-    },
   ],
   direcao_de_arte: [
-    {
-      name: "Isadora Marques",
-      url: "isa_marques.jpg",
-      exposed: "Aspirante à Masterchef na quarentena",
-    },
-    {
-      name: "João Fernando",
-      url: "j_fernando.jpg",
-      exposed: "Ó o pijamão",
-    },
     {
       name: "Ju Peres",
       url: "ju_peres.jpg",
       exposed: "Presidente do fã clube da Larissa Manoela",
     },
     {
+      name: "Isadora Marques",
+      url: "isa_marques.jpg",
+      exposed: "Aspirante à Masterchef na quarentena",
+    },
+    {
       name: "Marcos Alexandre",
       url: "marcos.jpg",
       exposed: "Ok, desisto",
+    },
+    {
+      name: "João Fernando",
+      url: "j_fernando.jpg",
+      exposed: "Ó o pijamão",
     },
     {
       name: "Nara Costa",
@@ -90,14 +91,14 @@ const members = {
       exposed: "A famosa maria twins",
     },
     {
-      name: "Roberto Jurema",
-      url: "JUREMA.jpg",
-      exposed: "Faz comunicação, mas queria mesmo era fazer turismo",
-    },
-    {
       name: "Bea Teotônio",
       url: "BEA.jpg",
       exposed: "Uoouooo (na voz da Hannah Montana)",
+    },
+    {
+      name: "Roberto Jurema",
+      url: "JUREMA.jpg",
+      exposed: "Faz comunicação, mas queria mesmo era fazer turismo",
     },
     {
       name: "Babi Garcia",
@@ -117,10 +118,16 @@ const members = {
       exposed: "Faz faculdade de turismo e pega optativa na comunicação",
     },
     {
+      name: "Ju Resende",
+      url: "JU_RESENDE.jpg",
+      exposed: "Hétero top do HB20 branco (que não é hetero)",
+    },
+    {
       name: "Bruna Bomtempo",
       url: "BOMTEMPO.jpg",
       exposed: "Dorme no meio do treinamento",
     },
+
     {
       name: "Carol Mesquita.",
       url: "MESQUITA.jpg",
@@ -130,11 +137,6 @@ const members = {
       name: "Izabelly Resende",
       url: "IZABELLY.jpg",
       exposed: "Doida dos signos",
-    },
-    {
-      name: "Ju Resende",
-      url: "JU_RESENDE.jpg",
-      exposed: "Hétero top do HB20 branco (que não é hetero)",
     },
   ],
   producao: [
@@ -154,14 +156,14 @@ const members = {
       exposed: "Volta ao mundo em 80 dias",
     },
     {
-      name: "Felipe Leal",
-      url: "LEAL.jpg",
-      exposed: "Tinha que ser o @fleal_ beija mal",
-    },
-    {
       name: "Vítor Gabriel",
       url: "VITOR.jpg",
       exposed: "Rinoplastia feita por Deus",
+    },
+    {
+      name: "Felipe Leal",
+      url: "LEAL.jpg",
+      exposed: "Tinha que ser o @fleal_ beija mal",
     },
     {
       name: "Duda Gomes",
@@ -176,15 +178,16 @@ const members = {
   ],
   redacao: [
     {
-      name: "André Brandão",
-      url: "ANDRÉ.jpg",
-      exposed: "Abriga 50 pessoas em 2m2",
-    },
-    {
       name: "Lu Victorino.",
       url: "LU.jpg",
       exposed: "Morena do tchan",
     },
+    {
+      name: "André Brandão",
+      url: "ANDRÉ.jpg",
+      exposed: "Abriga 50 pessoas em 2m2",
+    },
+
     {
       name: "Maria Clara",
       url: "MARIA_CLARA.jpg",
@@ -201,14 +204,14 @@ const members = {
       exposed: "Na verdade se chama Cláudio",
     },
     {
-      name: "Mari Delamagna",
-      url: "DELAMAGNA.jpg",
-      exposed: "Pega uma vez e apaixona.",
-    },
-    {
       name: "Mariana Sofia",
       url: "MARIANA.jpg",
       exposed: "Certinha até demais",
+    },
+    {
+      name: "Mari Delamagna",
+      url: "DELAMAGNA.jpg",
+      exposed: "Pega uma vez e apaixona.",
     },
   ],
 };
