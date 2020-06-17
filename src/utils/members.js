@@ -213,6 +213,11 @@ let members = {
       url: "DELAMAGNA.jpg",
       exposed: "Pega uma vez e apaixona.",
     },
+    {
+      name: "Douglas",
+      url: "Douglas.jpg",
+      exposed: "Mascote, entidade e alma da Doisnovemeia.",
+    },
   ],
 };
 

@@ -7,7 +7,7 @@ function App() {
     <>
       <header></header>
       <div className="title">
-        <h1>Exposed members</h1>
+        <h1>Exposed dos membros</h1>
       </div>
       <div className="container">
         {areas.map((area) =>
