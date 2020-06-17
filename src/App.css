@@ -38,10 +38,14 @@ p {
 }
 
 div .member-info {
-  top: -200px;
+  margin-top: -200px;
   flex-direction: column;
   text-align: center;
   z-index: 2;
   width: 200px;
-  position: relative;
+  position: absolute;
+}
+
+.memeber-content {
+  margin-bottom: 50px;
 }
