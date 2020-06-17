@@ -1,25 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import "./App.css";
+import members from "./utils/members";
 function App() {
+  const areas = Object.keys(members);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <header></header>
+      <div className="title">
+        <h1>Exposed members</h1>
+      </div>
+      <div className="container">
+        {areas.map((area) =>
+          members[area].map((member) => (
+            <div className="memeber-content">
+              <img src={require(`./assets/${area}/${member.url}`)} />
+              <div className="member-info">
+                <p className="name">{member.name}</p>
+                <p className="exposed">{member.exposed}</p>
+              </div>
+            </div>
+          ))
+        )}
+      </div>
+    </>
   );
 }
 
