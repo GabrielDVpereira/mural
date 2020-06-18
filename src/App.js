@@ -5,7 +5,9 @@ const areas = Object.keys(members);
 function App() {
   return (
     <>
-      <header></header>
+      <header>
+        <img src={require("./assets/mural.png")} alt="mural" />
+      </header>
       <div className="title">
         <h1>Exposed dos membros</h1>
       </div>

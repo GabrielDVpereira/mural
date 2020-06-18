@@ -5,7 +5,6 @@
   justify-content: space-between;
   margin-left: 30px;
   margin-right: 30px;
-  /* background-color: rgb(10, 98, 69); */
 }
 .title {
   display: flex;
@@ -16,18 +15,28 @@ h1 {
   font-family: "Anonymous Pro", monospace;
 }
 header {
-  height: 300px;
+  height: 400px;
   background-color: #fff;
   margin: 30px 30px 0 30px;
 }
-img {
+header img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+header h1 {
+  height: 100%;
+  width: 100%;
+}
+
+.memeber-content img {
   height: 230px;
   position: relative;
   transition: filter 0.5s, z-index 0.5s, transform 0.5s;
   z-index: 3;
 }
 
-img:hover {
+.memeber-content img:hover {
   filter: blur(8px);
   -webkit-filter: blur(8px);
   z-index: 1;

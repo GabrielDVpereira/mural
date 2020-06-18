@@ -1,9 +1,14 @@
 let members = {
   atendimento: [
     {
+      name: "Douglas",
+      url: "Douglas.jpg",
+      exposed: "Mascote, entidade e alma da Doisnovemeia.",
+    },
+    {
       name: "Isadora Martins",
       url: "ISA_MARTINS.jpg",
-      exposed: "Desliga a câmera no treinamento para ir fazer coco",
+      exposed: "Ama vampiros",
     },
     {
       name: "Duda Serra",
@@ -98,7 +103,7 @@ let members = {
     {
       name: "Roberto Jurema",
       url: "JUREMA.jpg",
-      exposed: "Faz comunicação, mas queria mesmo era fazer turismo",
+      exposed: "Faz comunicação mas queira mesmo ser zoólogo",
     },
     {
       name: "Babi Garcia",
@@ -131,7 +136,7 @@ let members = {
     {
       name: "Carol Mesquita.",
       url: "MESQUITA.jpg",
-      exposed: "Já beijou um menino na frente da mãe quando tinha 14 anos",
+      exposed: "Já beijou um menino na frente da mãe no rolê.",
     },
     {
       name: "Izabelly Resende",
@@ -148,7 +153,7 @@ let members = {
     {
       name: "Fabi Salgado",
       url: "FABI.jpg",
-      exposed: "Geek dos festivais",
+      exposed: "Carnaval, pra que te quero <3",
     },
     {
       name: "Ju Fialho",
@@ -212,11 +217,6 @@ let members = {
       name: "Mari Delamagna",
       url: "DELAMAGNA.jpg",
       exposed: "Pega uma vez e apaixona.",
-    },
-    {
-      name: "Douglas",
-      url: "Douglas.jpg",
-      exposed: "Mascote, entidade e alma da Doisnovemeia.",
     },
   ],
 };
