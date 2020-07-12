@@ -19,13 +19,13 @@ function App() {
             const imgWidth = img.width;
             console.log(member.name, imgWidth);
             let member_area;
-            if (member.name == "Douglas") {
+            if (member.name === "Douglas") {
               member_area = "Mascote";
-            } else if (area == "direcao_de_arte") {
+            } else if (area === "direcao_de_arte") {
               member_area = "Direção de arte";
-            } else if (area == "Redacao") {
+            } else if (area === "Redacao") {
               member_area = "Redação";
-            } else if (area == "Producao") {
+            } else if (area === "Producao") {
               member_area = "Produção";
             } else {
               member_area = area;
