@@ -23,6 +23,10 @@ function App() {
               member_area = "Mascote";
             } else if (area == "direcao_de_arte") {
               member_area = "Direção de arte";
+            } else if (area == "Redacao") {
+              member_area = "Redação";
+            } else if (area == "Producao") {
+              member_area = "Produção";
             } else {
               member_area = area;
             }
