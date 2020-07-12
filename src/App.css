@@ -14,6 +14,7 @@ h1 {
   color: #fff;
   font-family: "Anonymous Pro", monospace;
 }
+
 header {
   height: 400px;
   background-color: #fff;
@@ -48,11 +49,21 @@ p {
   color: #fff;
 }
 
+.area {
+  font-weight: bold;
+}
+
 div .member-info {
   flex-direction: column;
   text-align: center;
   z-index: 2;
   position: absolute;
+}
+.member-info:hover + img {
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  z-index: 1;
+  transform: scale(1.1);
 }
 
 .memeber-content {

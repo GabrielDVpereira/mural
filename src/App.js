@@ -9,7 +9,7 @@ function App() {
         <img src={require("./assets/mural.png")} alt="mural" />
       </header>
       <div className="title">
-        <h1>Exposed dos membros</h1>
+        <h1>Exposed dos membros 1/2020</h1>
       </div>
       <div className="container">
         {areas.map((area) =>
@@ -21,19 +21,20 @@ function App() {
 
             return (
               <div className="memeber-content">
-                <img
-                  src={require(`./assets/${area}/${member.url}`)}
-                  alt="member"
-                />
                 <div
                   className="member-info"
                   style={{
                     width: imgWidth >= 610 ? "200px" : "165px",
                   }}
                 >
+                  <p className="area">{area}</p>
                   <p className="name">{member.name}</p>
                   <p className="exposed">{member.exposed}</p>
                 </div>
+                <img
+                  src={require(`./assets/${area}/${member.url}`)}
+                  alt="member"
+                />
               </div>
             );
           })
