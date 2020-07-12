@@ -27,6 +27,16 @@ function App() {
               member_area = "Redação";
             } else if (area === "Producao") {
               member_area = "Produção";
+            } else if (member.name === "Gabi Lacroix") {
+              member_area = "Presidente Institucional";
+            } else if (member.name === "Roberto Jurema") {
+              member_area = "Atendimento e vendas";
+            } else if (member.name === "Bea Teotônio") {
+              member_area = "Direção de criação";
+            } else if (member.name === "Fê Meireles") {
+              member_area = "Gestão de Pessoas";
+            } else if (member.name === "Babi Garcia") {
+              member_area = " Diretora de Marketing";
             } else {
               member_area = area;
             }
