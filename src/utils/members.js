@@ -1,5 +1,5 @@
 let members = {
-  atendimento: [
+  Atendimento: [
     {
       name: "Douglas",
       url: "Douglas.jpg",
@@ -84,11 +84,16 @@ let members = {
       exposed: "Santo é uma ova",
     },
   ],
-  diretoria: [
+  Diretoria: [
     {
       name: "Fê Meireles",
       url: "fe.jpg",
       exposed: "Paga de gótica, mas chora até com vídeo de gatinho",
+    },
+    {
+      name: "Babi Garcia",
+      url: "BABI.jpg",
+      exposed: "Já viram o pé dela?",
     },
     {
       name: "Gabi Lacroix",
@@ -105,32 +110,27 @@ let members = {
       url: "JUREMA.jpg",
       exposed: "Faz comunicação mas queira mesmo ser zoólogo",
     },
-    {
-      name: "Babi Garcia",
-      url: "BABI.jpg",
-      exposed: "Já viram o pé dela?",
-    },
   ],
-  planejamento: [
-    {
-      name: "Moara Zolet",
-      url: "MOARA.jpg",
-      exposed: "Dá migué que o wifi caiu pra não entrar na video chamada",
-    },
+  Planejamento: [
     {
       name: "Cris Lima",
       url: "CRIS.jpg",
       exposed: "Faz faculdade de turismo e pega optativa na comunicação",
     },
     {
-      name: "Ju Resende",
-      url: "JU_RESENDE.jpg",
-      exposed: "Hétero top do HB20 branco (que não é hetero)",
+      name: "Moara Zolet",
+      url: "MOARA.jpg",
+      exposed: "Dá migué que o wifi caiu pra não entrar na video chamada",
     },
     {
       name: "Bruna Bomtempo",
       url: "BOMTEMPO.jpg",
       exposed: "Dorme no meio do treinamento",
+    },
+    {
+      name: "Ju Resende",
+      url: "JU_RESENDE.jpg",
+      exposed: "Hétero top do HB20 branco (que não é hetero)",
     },
 
     {
@@ -144,7 +144,7 @@ let members = {
       exposed: "Doida dos signos",
     },
   ],
-  producao: [
+  Producao: [
     {
       name: "Ana Clara",
       url: "ANA_CLARA.jpg",
@@ -156,19 +156,14 @@ let members = {
       exposed: "Carnaval, pra que te quero <3",
     },
     {
-      name: "Ju Fialho",
-      url: "JU_FIALHO.jpg",
-      exposed: "Volta ao mundo em 80 dias",
-    },
-    {
       name: "Vítor Gabriel",
       url: "VITOR.jpg",
       exposed: "Rinoplastia feita por Deus",
     },
     {
-      name: "Felipe Leal",
-      url: "LEAL.jpg",
-      exposed: "Tinha que ser o @fleal_ beija mal",
+      name: "Ju Fialho",
+      url: "JU_FIALHO.jpg",
+      exposed: "Volta ao mundo em 80 dias",
     },
     {
       name: "Duda Gomes",
@@ -176,12 +171,17 @@ let members = {
       exposed: "Cinéfila chata",
     },
     {
+      name: "Felipe Leal",
+      url: "LEAL.jpg",
+      exposed: "Tinha que ser o @fleal_ beija mal",
+    },
+    {
       name: "Marina Serra",
       url: "MARI.jpg",
       exposed: "Advogada das amigas",
     },
   ],
-  redacao: [
+  Redacao: [
     {
       name: "Lu Victorino.",
       url: "LU.jpg",
