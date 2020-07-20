@@ -3,7 +3,7 @@ let members = {
     {
       name: "Douglas",
       url: "Douglas.jpg",
-      exposed: "Mascote, entidade e alma da Doisnovemeia.",
+      exposed: "Entidade e alma da Doisnovemeia.",
     },
     {
       name: "Isadora Martins",
