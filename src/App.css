@@ -47,6 +47,8 @@ header h1 {
 p {
   font-family: "Space Mono", monospace;
   color: #fff;
+  font-size: 16px;  
+  transform: scale(0.9);
 }
 
 .area {

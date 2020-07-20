@@ -32,7 +32,7 @@ function App() {
             } else if (member.name === "Roberto Jurema") {
               member_area = "Diretor de atendimento e vendas";
             } else if (member.name === "Bea Teotônio") {
-              member_area = "Direção de criação";
+              member_area = "Diretora de criação";
             } else if (member.name === "Fê Meireles") {
               member_area = "Diretora de gestão de Pessoas";
             } else if (member.name === "Babi Garcia") {
@@ -45,7 +45,7 @@ function App() {
                 <div
                   className="member-info"
                   style={{
-                    width: imgWidth >= 610 ? "200px" : "165px",
+                    width: imgWidth >= 610 ? "200px" : "170px",
                   }}
                 >
                   <p className="area">{member_area}</p>
